@@ -2,28 +2,47 @@
 	/**
 	* DB
 	*/
-	class DB extends PDO
-	{
+	// class DB
+	// {
 		
-		const host = "localhost";
+	// 	var $host = "localhost";
 
-		const dbName = "shop";
+	// 	var $dbName = "shop";
 
-		const user = "root";
+	// 	var $user = "root";
 
-		const password = "";
+	// 	var $password = "";
+
+	// 	//var $conn = null;
+
+	// 	// function __construct()
+	// 	// {
+	// 	// 	parent::__construct('mysql:host=' . DB::host . ';dbname=' . DB::dbName,
+	// 	// 		DB::user,DB::password);
+	// 	// }
+	// 	public function getConnect(){
+	// 		$conn = new PDO('mysql:host=' . $this->host . ';database='
+	// 				. $this->dbName, $this->user, $this->password );
+	// 		if( !$conn ) {
+	// 			exit('faild to connect to the database!');
+	// 		}
+	// 		else {
+	// 			echo 'success to connect to the database!';
+	// 			return $conn;
+	// 		}
+			
+	// 	}
+
+	// 	public function execute($sql)
+	// 	{
+	// 		return $this->conn->exec($sql);
+	// 	}
+	// }
+
+	 // $db = new DB();
+	 // $db->getConnect();
+	 // $db->execute('insert into User(userName,password,age,sex) values("hello02","world02","23","girl");');
 
 
-
-		function __construct()
-		{
-			parent::__construct('mysql:host=' . DB::host . ';dbname=' . DB::dbName,
-				DB::user,DB::password);
-		}
-
-
-	}
-
-	//$db = new DB();
 
  ?>

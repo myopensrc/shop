@@ -2,8 +2,6 @@
 	/**
 	* ormTool
 	*/
-	//用完可删
-	require('../../bean/User.php');
 
 	require('./ormRule.php');
 	require('./dbMapping.php');
@@ -37,9 +35,6 @@
 			
 		}
 	}
-
-	$user = new User();
-	print_r( ormTool::getRule($user) );
 
 
  ?>
