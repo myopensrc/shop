@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mapping>
+	<class name="bean/User.php" table="User" >
+
+
+		<id
+			name="userId"
+			type="String"
+			column="userId"
+			length="6"
+			validation=""
+			generator="native"
+			>
+		</id>
+		
+
+		<property
+			name="userName"
+			type="String"
+			column="userName"
+			notNull="true"
+			length="10"
+			validation=""
+			>
+		</property>
+
+
+		<property
+			name="password"
+			type="String"
+			column="password"
+			notNull="true"
+			length="10"
+			validation=""
+			>
+		</property>
+
+		<property
+			name="age"
+			type="int"
+			column="age"
+			notNull="true"
+			validation=""
+			>
+		</property>
+		
+		<property
+			name="sex"
+			type="String"
+			column="sex"
+			notNull="true"
+			length="4"
+			validation=""
+			>
+		</property>
+
+	</class>
+</mapping>
