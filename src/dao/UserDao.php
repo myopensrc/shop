@@ -47,9 +47,5 @@
 		}
 	}
 
-	$user = new UserDao();
-	$aa = $user->updateUser();
-	var_dump($aa);
-	$aa = $user->queryUser();
-	var_dump($aa);
+	
  ?>
