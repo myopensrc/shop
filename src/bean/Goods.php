@@ -5,15 +5,15 @@
 	class Goods
 	{
 
-		var $id = null;
+		var $id = 0;
 
-		var $goodsName = null;
+		var $goodsName = "";
 
-		var $price = null;
+		var $price = 0;
 
-		var $unit = null;
+		var $unit = "";
 
-		var $cateId = null;
+		var $cateId = "";
 		
 		function __construct()
 		{

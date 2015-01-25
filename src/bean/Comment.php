@@ -4,13 +4,13 @@
 	*/
 	class Comment
 	{
-		var $id = null;
+		var $id = 0;
 
-		var $goodsId = null;
+		var $goodsId = 0;
 
-		var $userId = null;
+		var $userId = 0;
 
-		var $content = null;
+		var $content = '';
 
 
 		function __construct()

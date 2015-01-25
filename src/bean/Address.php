@@ -4,13 +4,13 @@
 	*/
 	class Address
 	{
-		var $id = null;
+		var $id = 0;
 
-		var $userId = null;
+		var $userId = 0;
 
-		var $address = null;
+		var $address = "";
 
-		var $isDefault = null;
+		var $isDefault = 0;
 		
 		function __construct()
 		{
