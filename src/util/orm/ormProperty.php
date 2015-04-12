@@ -1,12 +1,6 @@
 <?php 
 	/**
-	* property
-	*		name="userName"
-	*		type="String"
-	*		column="userName"
-	*		not-null="true"
-	*		length="10"
-	*		validation=""
+	* 
 	*/
 	class ormProperty
 	{
@@ -25,6 +19,19 @@
 		function __construct()
 		{
 			# code...
+		}
+
+		public function setNotNull($value)
+		{
+			if ($value == 'false')
+			{
+				$this->notNull = FALSE;
+			}
+			else
+			{
+				$this->notNull = TRUE;
+			}
+
 		}
 	}
  ?>

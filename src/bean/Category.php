@@ -5,11 +5,11 @@
 	class Category
 	{
 		
-		var $id = 0;
+		var $id = null;
 
-		var $cateName = "";
+		var $cateName = null;
 
-		var $parentId = 0;
+		var $parentId = null;
 
 
 		function __construct()

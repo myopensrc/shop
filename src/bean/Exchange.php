@@ -5,13 +5,13 @@
 	class Exchange
 	{
 
-		var $id = 0;
+		var $id = null;
 
-		var $userId = 0;
+		var $userId = null;
 
-		var $addressId = 0;
+		var $addressId = null;
 
-		var $goodsId = 0;
+		var $goodsId = null;
 		
 		function __construct()
 		{

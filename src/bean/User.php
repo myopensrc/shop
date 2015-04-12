@@ -5,15 +5,15 @@
 	class User
 	{
 
-		var $userId = 0;
+		var $userId = null;
 
-		var $userName = "";
+		var $userName = null;
 
-		var $password = "";
+		var $password = null;
 
-		var $age = 0;
+		var $age = null;
 
-		var $sex = '';
+		var $sex = null;
 		
 		function __construct()
 		{
