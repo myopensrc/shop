@@ -1,6 +1,6 @@
 <?php 
 	/**
-	* DB class
+	* DB class second
 	*/
 	// class DB
 	// {
